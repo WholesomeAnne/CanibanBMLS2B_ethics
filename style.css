@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto'sans-serif;
+    background-color: antiquewhite;
+}
+
+.bg{
+    padding: 0;
+    overflow: hidden;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.logo{
+    width:80px;
+
+}
+h1 {
+    margin-left: 100px;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+margin-top: 0;
+margin-left: 4%;
+text-align: center;
+max-width: 600px;
+}
+
+.content h1 {
+    font-size: 40px;
+    color: #222;
+    margin-top: 20px;
+    margin-left: 0;
+    }
+
+.content h2 {
+    font-size: 30px;
+    color: #222;
+    margin-top: 20px;
+
+    }
+
+    .content p {
+        margin: 10px 0 30px;
+        color: #333;
+        font-size: 20px;
+        }
+
+        .feature{
+            width: 530px;
+            position: absolute;
+            top: 20%;
+            bottom: 0;
+            right: 10%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .second {
+            margin-top: 50px;
+            margin-left: 4%;
+            text-align: center;
+            max-width: 600px;
+            }
+
+            .second h2 {
+                font-size: 30px;
+                color: #222;
+                margin-top: 100px;
+                left: 10%;
+                }
+            
+                .second p {
+                    margin: 10px 0 30px;
+                    color: #333;
+                    font-size: 20px;
+                    }
+
+        .utilitarianism{
+            width: 480px;
+            position: absolute;
+            top: 110%;
+            bottom: 0;
+            right: 12%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .utilitarianism:hover {
+
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+
+        .last {
+            margin-top: 90px;
+            margin-left: 4%;
+            text-align: center;
+            max-width: 600px;
+            }
+
+            .last h2 {
+                font-size: 30px;
+                color: #222;
+                margin-top: 100px;
+                left: 10%;
+                }
+            
+                .last p {
+                    margin: 10px 0 30px;
+                    color: #333;
+                    font-size: 20px;
+                    }
+
+        .nlaw{
+            width: 500px;
+            position: absolute;
+            top: 160%;
+            bottom: 0;
+            right: 11.5%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .nlaw:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
