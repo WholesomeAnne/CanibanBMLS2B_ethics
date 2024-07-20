@@ -128,7 +128,7 @@ max-width: 600px;
         .nlaw{
             width: 500px;
             position: absolute;
-            top: 180%;
+            top: 165%;
             bottom: 0;
             right: 11.5%;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
